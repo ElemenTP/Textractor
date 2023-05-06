@@ -6,3 +6,4 @@ add_library(host
 target_precompile_headers(host REUSE_FROM pch)
 
 add_subdirectory(CLI)
+add_subdirectory(DLL)
